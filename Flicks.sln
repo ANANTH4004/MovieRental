@@ -11,6 +11,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{CBECAFCF-6B17-45F0-87D0-6DFA0C20AC38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRental", "MovieRental\MovieRental.csproj", "{3C3CCD7C-28AF-46D0-99EA-0460759DCF86}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B9335A70-E091-43FE-85B5-9B4AA4210441} = {B9335A70-E091-43FE-85B5-9B4AA4210441}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
